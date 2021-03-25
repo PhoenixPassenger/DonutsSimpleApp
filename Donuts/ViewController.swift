@@ -8,10 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    typealias Donuts = [Donut]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .cyan
     }
 
 
